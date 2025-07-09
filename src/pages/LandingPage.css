@@ -1,0 +1,58 @@
+/* src/pages/LandingPage.css */
+
+.landing-container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #b6b1bb, #87a8e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    color: #333;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+  
+  .button-group button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #77aeb2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #1a5cd7;
+  }
+  .footer {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    color: #555;
+    opacity: 0.8;
+  }
+  
